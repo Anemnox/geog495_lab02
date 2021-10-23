@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello World</title>
+
+    <script src="js/hamburger.js"></script>
+    <link rel="stylesheet" href="css/hamburger.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Intro</a>
+        <a href="section1.html">Installation</a>
+        <a href="section2.html">Command Line</a>
+        <a class="active" href="section3.html">Hello World</a>
+        <a href="section4.html">Running Python</a>
+        <a href="references.html">See Also</a>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="hamburgerClick(this)">
+          <!--<i class="fa fa-bars"></i>-->
+          <div class="ham bar1"></div>
+          <div class="ham bar2"></div>
+          <div class="ham bar3"></div>
+        </a>
+    </div>
+
+    <!-- Page content -->
+    <div class="content">
+        <h1>Creating our First Program!</h1>
+        <p>
+          Once you get familiar with using the command line, create a file named
+          "hello_world.py" at the directory that you would like to save the file
+          at. Make sure to be familiar with navigating to the directory in the
+          command line.
+        </p>
+        <p>
+          We can start by introducing the <em>print()</em> method. By specifying text
+          between quotations(""), we are able to "print" text onto the command
+          line when our program runs. Try it out!
+        </p>
+        <code>
+          print("Hello World!")
+        </code>
+        <p>
+          Once you save this, we will be able to run the python script!
+        </p>
+    </div>
+
+</body>
+
+<script src="js/main.js"></script>
+
+</html>

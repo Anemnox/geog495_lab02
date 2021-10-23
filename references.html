@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Other Tutorials</title>
+
+    <script src="js/hamburger.js"></script>
+    <link rel="stylesheet" href="css/hamburger.css">
+    <link rel="stylesheet" href="css/accordion.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Intro</a>
+        <a href="section1.html">Installation</a>
+        <a href="section2.html">Command Line</a>
+        <a href="section3.html">Hello World</a>
+        <a href="section4.html">Running Python</a>
+        <a class="active" href="references.html">See Also</a>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="hamburgerClick(this)">
+          <!--<i class="fa fa-bars"></i>-->
+          <div class="ham bar1"></div>
+          <div class="ham bar2"></div>
+          <div class="ham bar3"></div>
+        </a>
+    </div>
+
+    <!-- Page content -->
+    <div class="content">
+      <h1>See also</h1>
+      <p>
+        Here are some more resources to learn more about python!
+      </p>
+      <button class="accordion">Learn more about Python!</button>
+      <div class="panel">
+        <p>Tutorial on more python basics:</p>
+        <p><a href="https://www.learnpython.org/">www.learnpython.org/</a></p>
+      </div>
+
+      <button class="accordion">Python Classes</button>
+      <div class="panel">
+        <p>Lessons on python basics:</p>
+        <p><a href="https://www.codecademy.com/">www.codecademy.com/</a></p>
+      </div>
+
+      <button class="accordion">Python Documentation</button>
+      <div class="panel">
+        <p>Documentation for the python language:</p>
+        <p><a href="https://www.python.org/doc/">www.python.org/</a></p>
+      </div>
+    </div>
+</body>
+
+<script src="js/main.js"></script>
+<script src="js/accordion.js"></script>
+
+</html>

@@ -1,0 +1,17 @@
+/*Custom CSS for Components*/
+code {
+  display: block;
+  border-radius: 5px;
+  background: #e0e0e0;
+  padding: 10px;
+  text-align: left;
+  box-shadow: #aaaaaa 3px 3px;
+}
+
+.content {
+  text-align: center;
+}
+
+.content p, .content ul {
+  text-align: left;
+}
